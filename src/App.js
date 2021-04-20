@@ -5,9 +5,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <Router>
       <Navbar />
-    </div>
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+    </Router>
+    </>
   );
 }
 
