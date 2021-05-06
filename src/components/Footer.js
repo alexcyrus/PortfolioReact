@@ -12,7 +12,7 @@ function Footer() {
         <div class='social-icons'>
             <Link
               class='social-icon-link email'
-              to='/'
+              to={{pathname: 'mailto:alex@alexcyrus.com'}}
               target='_blank'
               aria-label='Email'
             >
@@ -20,7 +20,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link github'
-              to='/'
+              to={{pathname: 'https://github.com/alexcyrus'}}
               target='_blank'
               aria-label='Github'
             >
@@ -28,7 +28,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to={{pathname: 'https://www.linkedin.com/in/alexcyrus'}}
               target='_blank'
               aria-label='LinkedIn'
             >
