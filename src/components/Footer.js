@@ -28,7 +28,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link linkedin'
-              to={{pathname: 'https://www.linkedin.com/in/alexcyrus'}}
+              to={'https://www.linkedin.com/in/alexcyrus'}
               target='_blank'
               aria-label='LinkedIn'
             >

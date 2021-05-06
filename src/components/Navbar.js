@@ -24,13 +24,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/work-samples" className="nav-links" onClick={closeMobileMenu}>
-                Work Samples
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/fun-projects" className="nav-links" onClick={closeMobileMenu}>
-                Fun Projects
+              <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
+                Portfolio
               </Link>
             </li>
             <li className="nav-item">
