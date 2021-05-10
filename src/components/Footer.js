@@ -6,35 +6,8 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Contact Info
-        </p>
-        <div class='social-icons'>
-            <Link
-              class='social-icon-link email'
-              to={{pathname: 'mailto:alex@alexcyrus.com'}}
-              target='_blank'
-              aria-label='Email'
-            >
-              <i class="fas fa-envelope"></i>
-            </Link>
-            <Link
-              class='social-icon-link github'
-              to={{pathname: 'https://github.com/alexcyrus'}}
-              target='_blank'
-              aria-label='Github'
-            >
-              <i class='fab fa-github'></i>
-            </Link>
-            <Link
-              class='social-icon-link linkedin'
-              to={'https://www.linkedin.com/in/alexcyrus'}
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+        <h1>About</h1>
+        <p>Front End Developer with strong design and communication skills. I combine pragmatism and craftsmanship to help my teams create winning software. My work philosophy is kaizen, also known as continuous improvement, without neglecting performance optimization, clean code, and excellent user experience. Always love taking on new challenges and cross-team collaborating.</p>
       </section>
     </div>
   );
