@@ -1,7 +1,4 @@
 .footer-container {
-  background: url('/Users/alexcyrus/Desktop/portfolio-react/src/images/img-about.jpeg') center center/cover no-repeat;
-  height: 100vh;
-  width: 100%;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -23,6 +20,13 @@
 .footer-subscription > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  margin-top: 25px;
-  padding: 0 20rem;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container > img {
+  width: 250px;
+  padding: 15px;
 }
