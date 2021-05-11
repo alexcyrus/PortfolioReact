@@ -13,12 +13,15 @@
   align-items: center;
   text-align: center;
   margin-bottom: 24px;
-  padding: 24px;
   color: #000;
 }
 
+.footer-subscription > h1 {
+  font-size: 2em;
+}
+
 .image-container {
-  width: 68%;
+  width: 80%;
 }
 
 .image-container > img {
@@ -33,11 +36,16 @@
   letter-spacing: .5px;
   text-align: left;
   line-height: 1.5;
-  padding-top: 1.3em;
+  padding: 0 20px;
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 768px) {
   .image-container {
-    width: 67%;
+    width: 100%;
+  }
+
+  .image-container > img {
+    width: 100%;
   }
 }

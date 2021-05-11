@@ -45,7 +45,7 @@ function Cards() {
             />
           <CardItem
               src='images/chicos.jpg'
-              text='Chicos'
+              text='Chico&apos;s'
               label='Brickwork Software'
               to={{pathname: 'https://chicos.brickworksoftware.com'}}
             />
