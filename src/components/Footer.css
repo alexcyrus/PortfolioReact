@@ -18,18 +18,26 @@
 }
 
 .image-container {
-  width: 50%;
+  width: 68%;
 }
 
 .image-container > img {
   width: 250px;
-  padding: 15px;
+  padding: 20px;
   float: left;
 }
 
 .image-container > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  letter-spacing: .5px;
   text-align: left;
-  margin-top: 25px;
+  line-height: 1.5;
+  padding-top: 1.3em;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    width: 67%;
+  }
 }
