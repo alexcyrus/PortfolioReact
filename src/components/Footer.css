@@ -17,11 +17,6 @@
   color: #000;
 }
 
-.footer-subscription > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
-
 .image-container {
   width: 50%;
 }
@@ -29,4 +24,12 @@
 .image-container > img {
   width: 250px;
   padding: 15px;
+  float: left;
+}
+
+.image-container > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  margin-top: 25px;
 }
