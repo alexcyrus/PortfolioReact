@@ -1,5 +1,5 @@
 .hero-container {
-  background: url('/Users/alexcyrus/Desktop/portfolio-react/src/images/img-home.jpeg') center center/cover no-repeat;
+  background: url('/src/images/img-home.jpeg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
