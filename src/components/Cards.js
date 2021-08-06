@@ -6,9 +6,9 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Portfolio</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='cards-container'>
+        <div className='cards-wrapper'>
+          <ul className='cards-items'>
             <CardItem
               src='images/cr-edge.png'
               text='CR-Edge'
@@ -22,7 +22,7 @@ function Cards() {
               to={{pathname: 'http://turn-up-the-vamp.herokuapp.com'}}
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards-items'>
             <CardItem
               src='images/saks_fifth_avenue.jpg'
               text='Saks Fifth Avenue'
@@ -36,7 +36,7 @@ function Cards() {
               to={{pathname: 'https://katespade.brickworksoftware.com'}}
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards-items'>
           <CardItem
               src='images/david_yurman.jpg'
               text='David Yurman'
