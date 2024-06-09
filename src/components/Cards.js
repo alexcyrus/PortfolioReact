@@ -12,27 +12,23 @@ function Cards() {
           <CardItem
               src='images/twins_family_dentistry.png'
               text='Twins Family Dentistry'
-              label='Freelance'
               to={{pathname: 'https://www.twinsfamilydentistry.com'}}
             />
             <CardItem
-              src='images/cr-edge.png'
-              text='CR-Edge'
-              label='Freelance'
-              to={{pathname: 'https://www.cr-edge.com'}}
+              src='images/charney_companies.png'
+              text='Charney Companies'
+              to={{pathname: 'https://www.charneycompanies.com'}}
             />
           </ul>
           <ul className='cards-items'>
           <CardItem
-              src='images/charney_companies.png'
-              text='Charney Companies'
-              label='Freelance'
-              to={{pathname: 'https://www.charneycompanies.com'}}
+              src='images/cr-edge.png'
+              text='CR-Edge'
+              to={{pathname: 'https://www.cr-edge.com'}}
             />
             <CardItem
               src='images/saks_fifth_avenue.jpg'
               text='Saks Fifth Avenue'
-              label='Brickwork Software'
               to={{pathname: 'https://saksfifthavenue.brickworksoftware.com'}}
             />
           </ul>
@@ -40,7 +36,6 @@ function Cards() {
           <CardItem
               src='images/turn_up_the_vamp.jpg'
               text='Turn Up The Vamp'
-              label='Video Game'
               to={{pathname: 'https://turn-up-the-vamp.herokuapp.com'}}
             />
           <CardItem
