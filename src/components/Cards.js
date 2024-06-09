@@ -9,45 +9,42 @@ function Cards() {
       <div className='cards-container'>
         <div className='cards-wrapper'>
           <ul className='cards-items'>
+          <CardItem
+              src='images/twins_family_dentistry.png'
+              text='Twins Family Dentistry'
+              label='Freelance'
+              to={{pathname: 'https://www.twinsfamilydentistry.com'}}
+            />
             <CardItem
               src='images/cr-edge.png'
               text='CR-Edge'
               label='Freelance'
-              to={{pathname: 'http://www.cr-edge.com'}}
-            />
-            <CardItem
-              src='images/turn_up_the_vamp.jpg'
-              text='Turn Up The Vamp'
-              label='Video Game'
-              to={{pathname: 'http://turn-up-the-vamp.herokuapp.com'}}
+              to={{pathname: 'https://www.cr-edge.com'}}
             />
           </ul>
           <ul className='cards-items'>
+          <CardItem
+              src='images/charney_companies.png'
+              text='Charney Companies'
+              label='Freelance'
+              to={{pathname: 'https://www.charneycompanies.com'}}
+            />
             <CardItem
               src='images/saks_fifth_avenue.jpg'
               text='Saks Fifth Avenue'
               label='Brickwork Software'
               to={{pathname: 'https://saksfifthavenue.brickworksoftware.com'}}
             />
-            <CardItem
-              src='images/kate_spade.jpg'
-              text='Kate Spade'
-              label='Brickwork Software'
-              to={{pathname: 'https://katespade.brickworksoftware.com'}}
-            />
           </ul>
           <ul className='cards-items'>
           <CardItem
-              src='images/david_yurman.jpg'
-              text='David Yurman'
-              label='Brickwork Software'
-              to={{pathname: 'https://davidyurman.brickworksoftware.com'}}
+              src='images/turn_up_the_vamp.jpg'
+              text='Turn Up The Vamp'
+              label='Video Game'
+              to={{pathname: 'https://turn-up-the-vamp.herokuapp.com'}}
             />
           <CardItem
-              src='images/chicos.jpg'
-              text='Chico&apos;s'
-              label='Brickwork Software'
-              to={{pathname: 'https://chicos.brickworksoftware.com'}}
+
             />
           </ul>
         </div>
