@@ -9,7 +9,7 @@ function Cards() {
       <div className='cards-container'>
         <div className='cards-wrapper'>
           <ul className='cards-items'>
-          <CardItem
+            <CardItem
               src='images/twins_family_dentistry.png'
               text='Twins Family Dentistry'
               to={{pathname: 'https://www.twinsfamilydentistry.com'}}
@@ -21,9 +21,9 @@ function Cards() {
             />
           </ul>
           <ul className='cards-items'>
-          <CardItem
+            <CardItem
               src='images/cr-edge.png'
-              text='CR-Edge'
+              text='CR Edge'
               to={{pathname: 'https://www.cr-edge.com'}}
             />
             <CardItem
@@ -33,13 +33,15 @@ function Cards() {
             />
           </ul>
           <ul className='cards-items'>
-          <CardItem
+            <CardItem
+              src='images/david_yurman.png'
+              text='David Yurman'
+              to={{pathname: 'https://www.davidyurman.com/stores'}}
+            />
+            <CardItem
               src='images/turn_up_the_vamp.jpg'
               text='Turn Up The Vamp'
               to={{pathname: 'https://turn-up-the-vamp.herokuapp.com'}}
-            />
-          <CardItem
-
             />
           </ul>
         </div>
